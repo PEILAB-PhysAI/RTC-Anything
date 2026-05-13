@@ -30,30 +30,45 @@ The current runtime is built around:
 | Object sweeping | Tool-mediated manipulation | [Open guide](task_suites/object_sweeping.md) |
 | Table cleaning | Table cleaning | [Open guide](task_suites/table_cleaning.md) |
 
-Task suite demos (place MP4 files under `assets/videos/`; filenames below):
+Task suite demos:
+
+<div align="center">
 
 <table>
-  <tr>
-    <td width="50%" valign="top">
-      <video src="assets/videos/clothes_folding.mp4" controls playsinline muted preload="metadata" width="100%"></video>
-      <p align="center"><strong>Clothes folding</strong><br><a href="task_suites/clothes_folding.md">Guide</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <video src="assets/videos/object_sweeping.mp4" controls playsinline muted preload="metadata" width="100%"></video>
-      <p align="center"><strong>Object sweeping</strong><br><a href="task_suites/object_sweeping.md">Guide</a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <video src="assets/videos/table_cleaning.mp4" controls playsinline muted preload="metadata" width="100%"></video>
-      <p align="center"><strong>Table cleaning</strong><br><a href="task_suites/table_cleaning.md">Guide</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <video src="assets/videos/runtime_overview.mp4" controls playsinline muted preload="metadata" width="100%"></video>
-      <p align="center"><strong>RTC runtime overview</strong><br><em>Cobot Magic / Piper deployment</em></p>
-    </td>
-  </tr>
+  <thead>
+    <tr>
+      <th align="center">Clothes folding · Side view</th>
+      <th align="center">Clothes folding · Top view</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" width="360">
+        <video src="https://github.com/user-attachments/assets/f7df485d-1159-4b87-872d-9776b3b36a06" controls width="360"></video>
+      </td>
+      <td align="center" width="360">
+        <video src="https://github.com/user-attachments/assets/e78aa2f8-aa81-4df5-bcb0-38f1a3cfc1c6" controls width="360"></video>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center">
+        <p><strong>Clothes folding</strong><br><a href="task_suites/clothes_folding.md">Guide</a></p>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="360">
+        <video src="https://github.com/user-attachments/assets/7563904e-edbb-4be9-8e36-7ab17ec3f188" controls width="360"></video>
+        <p align="center"><strong>Object sweeping</strong><br><a href="task_suites/object_sweeping.md">Guide</a></p>
+      </td>
+      <td align="center" width="360">
+        <video src="https://github.com/user-attachments/assets/b377a95f-0e0f-479c-9186-fc3d2e91f9c6" controls width="360"></video>
+        <p align="center"><strong>Table cleaning</strong><br><a href="task_suites/table_cleaning.md">Guide</a></p>
+      </td>
+    </tr>
+  </tbody>
 </table>
+
+</div>
 
 ## Features
 
