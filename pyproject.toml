@@ -1,0 +1,26 @@
+[project]
+name = "RTC-Anything"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+dependencies = [
+    "catkin-pkg>=1.1.0",
+    "diffusers==0.26.3",
+    "dm-control==1.0.14",
+    "einops==0.7.0",
+    "empy==3.3.4",
+    "h5py==3.8.0",
+    "imageio==2.34.0",
+    "ipython==8.12.3",
+    "matplotlib==3.7.5",
+    "mujoco==2.3.7",
+    "opencv-python==4.9.0.80",
+    "packaging==23.0",
+    "pexpect==4.8.0",
+    "pyquaternion==0.9.9",
+    "pyyaml==6.0",
+    "rospkg==1.5.0",
+    "termcolor==2.4.0",
+]
