@@ -45,10 +45,10 @@ Task suite demos:
   <tbody>
     <tr>
       <td align="center" width="360">
-        <video src="https://github.com/user-attachments/assets/f7df485d-1159-4b87-872d-9776b3b36a06" controls width="360"></video>
+        <video src="assets/deploy_demo/cloth_folding_side_view.mp4" controls width="360"></video>
       </td>
       <td align="center" width="360">
-        <video src="https://github.com/user-attachments/assets/e78aa2f8-aa81-4df5-bcb0-38f1a3cfc1c6" controls width="360"></video>
+        <video src="assets/deploy_demo/cloth_folding_top_view.mp4" controls width="360"></video>
       </td>
     </tr>
     <tr>
@@ -58,11 +58,11 @@ Task suite demos:
     </tr>
     <tr>
       <td align="center" width="360">
-        <video src="https://github.com/user-attachments/assets/7563904e-edbb-4be9-8e36-7ab17ec3f188" controls width="360"></video>
+        <video src="assets/deploy_demo/object_sweeping.mp4" controls width="360"></video>
         <p align="center"><strong>Object sweeping</strong><br><a href="task_suites/object_sweeping.md">Guide</a></p>
       </td>
       <td align="center" width="360">
-        <video src="https://github.com/user-attachments/assets/b377a95f-0e0f-479c-9186-fc3d2e91f9c6" controls width="360"></video>
+        <video src="assets/deploy_demo/table_cleaning.mp4" controls width="360"></video>
         <p align="center"><strong>Table cleaning</strong><br><a href="task_suites/table_cleaning.md">Guide</a></p>
       </td>
     </tr>
