@@ -21,6 +21,7 @@ The current runtime is built around:
 - **Control loop**: Real-time chunking fuses overlapping action chunks for smoother on-robot execution.
 - **Rollout data**: Optional HDF5 logging stores images, state, actions, and success labels for debugging or downstream dataset conversion.
 
+The **training dataset** used for embodied policy learning in these setups is publicly available on Hugging Face: [**PEILAB-PhysAI/RTC-Anything**](https://huggingface.co/datasets/PEILAB-PhysAI/RTC-Anything).
 
 ## Task suites
 
