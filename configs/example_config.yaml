@@ -1,0 +1,61 @@
+# For saving rollout data
+save_rollout: true                # if false, images/states are only used for server inference and not saved
+episode_idx_dict:               # a dictionary to record the current episode index
+  success: 0
+  fail: 0
+output_dir: path/to/your/output_dir
+
+# ROS image topics — dual-arm deployment (dual_piper_deploy.py)
+ros_topics_dual:
+  img_front_topic: "/camera_h/color/image_raw"
+  img_left_topic: "/camera_l/color/image_raw"
+  img_right_topic: "/camera_r/color/image_raw"
+  img_front_depth_topic: "/camera_h/depth/image_raw"
+  img_left_depth_topic: "/camera_l/depth/image_raw"
+  img_right_depth_topic: "/camera_r/depth/image_raw"
+
+# ROS image topics — single-arm deployment (single_piper_deploy.py): front + wrist only
+ros_topics_single:
+  img_front_topic: "/camera_h/color/image_raw"
+  img_wrist_topic: "/camera_wrist/color/image_raw"
+  img_front_depth_topic: "/camera_h/depth/image_raw"
+  img_wrist_depth_topic: "/camera_wrist/depth/image_raw"
+
+
+# For robot connection and control
+left_channel: "can_left"        # your can channel name for left arm
+right_channel: "can_right"      # your can channel name for right arm
+single_channel: "can_single"           # your can channel name for single-arm Piper
+bitrate: 1000000                # your can bitrate, usually 1000000 for cobot magic
+speed_pct: 15                   # velocity percentage
+max_linear_vel: 0.5             # maximum linear velocity in m/s
+max_angular_vel: 0.1            # maximum angular velocity in rad/s
+max_linear_acc: 0.1             # maximum linear acceleration in m/s^2
+max_angular_acc: 0.05           # maximum angular acceleration in rad/s^2
+
+# For task definition
+instruction: "Your task instruction here" # your task instruction for the model
+
+# For inference and real-time chunking
+server_host: "localhost"         # policy server host
+server_port: 8000                # policy server port
+use_depth_image: false           # subscribe depth topics (dual & single scripts)
+use_front: true                  # front/high camera (dual & single)
+use_wrist: true                  # wrist camera — single_arm: single wrist; dual_arm: see use_left/right_wrist below
+use_left_wrist: true             # dual-arm only (dual_piper_deploy.py): left wrist
+use_right_wrist: true            # dual-arm only (dual_piper_deploy.py): right wrist
+front_camera_name: "cam_high"    # policy observation key for front/high camera
+wrist_camera_name: "cam_wrist"   # policy observation key for single-arm wrist camera
+left_wrist_camera_name: "cam_left_wrist"    # policy observation key for dual left wrist camera
+right_wrist_camera_name: "cam_right_wrist"  # policy observation key for dual right wrist camera
+action_chunk_size: 50           # size of each action chunk
+rtc_debug: false                 # print real-time chunking buffer state for debugging
+left_init_position: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.05]  # initial position for left arm
+right_init_position: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.05]    # initial position for right arm
+single_init_position: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.05]               # initial position for single-arm Piper
+rospy_rate: 100                 # rate for rospy
+exp_weight_factor: 0.3          # exponential weight factor
+
+# For safety check
+action_safety_threshold: 1.5    # maximum difference between last action and action pending execution
+state_safety_threshold: 0.3     # maximum difference between current state and action pending execution
