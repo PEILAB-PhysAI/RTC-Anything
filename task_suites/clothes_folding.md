@@ -34,10 +34,10 @@
   <tbody>
     <tr>
       <td align="center" width="360">
-        <video src="https://github.com/user-attachments/assets/f7df485d-1159-4b87-872d-9776b3b36a06" controls width="360"></video>
+        <video src="https://github.com/user-attachments/assets/9da8969b-33eb-425f-8e7c-d13dddeb2977" controls width="360"></video>
       </td>
       <td align="center" width="360">
-        <video src="https://github.com/user-attachments/assets/e78aa2f8-aa81-4df5-bcb0-38f1a3cfc1c6" controls width="360"></video>
+        <video src="https://github.com/user-attachments/assets/1eb4c65c-a268-4490-8635-ebf53ad5059a" controls width="360"></video>
       </td>
     </tr>
   </tbody>

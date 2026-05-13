@@ -27,7 +27,7 @@
 <table align="center">
   <tr>
     <td align="center" width="360">
-      <video src="https://github.com/user-attachments/assets/b377a95f-0e0f-479c-9186-fc3d2e91f9c6" controls width="360"></video>
+      <video src="https://github.com/user-attachments/assets/93bdf721-f4e2-4eb4-a72a-77992a5f19e2" controls width="360"></video>
     </td>
   </tr>
 </table>
