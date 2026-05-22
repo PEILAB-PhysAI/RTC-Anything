@@ -15,7 +15,7 @@
 ## 📋 目录
 
 - [效果演示](#-效果演示)
-- [π0训练配置](#-π0-训练配置)
+- [训练配置](#-训练配置)
 - [场景搭建](#-场景搭建)
 - [数据采集](#-数据采集)
 - [折叠策略](#-折叠策略)
@@ -45,13 +45,13 @@
 </table>
 
 
-## 🤖 π0 训练配置
+## 🤖 训练配置
 
-我们使用以下 TrainConfig，训练了**50,000** 步。
+基于 `pi0_base` 权重，我们使用以下 TrainConfig 训练了 **50,000** 步。
 
 ```python
 TrainConfig(
-    name="pi0_base_aloha_folding_full",
+    name="pi0_base_aloha_robotwin_full",
     model=pi0_config.Pi0Config(),
     data=LeRobotAlohaDataConfig(
       repo_id="clothes_folding",  # your datasets repo_id

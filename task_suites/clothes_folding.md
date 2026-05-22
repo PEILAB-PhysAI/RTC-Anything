@@ -15,7 +15,7 @@
 ## 📋 Table of Contents
 
 - [Demonstration](#-demonstration)
-- [π0 Training Setup](#-π0-training-setup)
+- [Training Setup](#-training-setup)
 - [Scene Setup](#-scene-setup)
 - [Data Collection](#-data-collection)
 - [Folding Strategy](#-folding-strategy)
@@ -45,13 +45,13 @@
 </table>
 
 
-## 🤖 π0 Training Setup
+## 🤖 Training Setup
 
-We trained the π0 policy for **50,000** steps with the configuration below.
+Based on the `pi0_base` checkpoint, we trained for **50,000** steps with the configuration below.
 
 ```python
 TrainConfig(
-    name="pi0_base_aloha_folding_full",
+    name="pi0_base_aloha_robotwin_full",
     model=pi0_config.Pi0Config(),
     data=LeRobotAlohaDataConfig(
       repo_id="clothes_folding",  # your datasets repo_id
