@@ -51,7 +51,7 @@
 
 ```python
 TrainConfig(
-    name="pi0_base_aloha_robotwin_full",
+    name="pi0_base_aloha_folding_full",
     model=pi0_config.Pi0Config(),
     data=LeRobotAlohaDataConfig(
       repo_id="clothes_folding",  # your datasets repo_id
