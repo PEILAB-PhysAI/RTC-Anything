@@ -37,7 +37,7 @@
 
 ## 🤖 π0 训练配置
 
-我们使用以下 TrainConfig，训练了50,000 步。
+我们使用以下 TrainConfig，训练了**50,000** 步。
 
 ```python
 TrainConfig(

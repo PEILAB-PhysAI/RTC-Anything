@@ -35,7 +35,7 @@
 
 ## 🤖 π0 Training Setup
 
-We trained the π0 policy for 50,000 steps with the configuration below.
+We trained the π0 policy for **50,000** steps with the configuration below.
 
 ```python
 TrainConfig(
