@@ -35,10 +35,10 @@
   <tbody>
     <tr>
       <td align="center" width="360">
-        <video src="https://github.com/user-attachments/assets/9da8969b-33eb-425f-8e7c-d13dddeb2977" controls width="360"></video>
+        <video src="https://github.com/user-attachments/assets/aea1e78f-62c1-42c2-9d6d-790a1e174937" controls width="360"></video>
       </td>
       <td align="center" width="360">
-        <video src="https://github.com/user-attachments/assets/1eb4c65c-a268-4490-8635-ebf53ad5059a" controls width="360"></video>
+        <video src="https://github.com/user-attachments/assets/3c50bf0b-924a-461e-b238-f3c518ba31bd" controls width="360"></video>
       </td>
     </tr>
   </tbody>
