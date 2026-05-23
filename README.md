@@ -62,7 +62,7 @@ Task suite demos:
         <p align="center"><strong>Object sweeping</strong><br><a href="task_suites/object_sweeping.md">Guide</a></p>
       </td>
       <td align="center" width="360">
-        <video src="https://github.com/user-attachments/assets/62e929c8-7bbb-4d10-9df0-f917f5241ca2" controls width="360"></video>
+        <video src="https://github.com/user-attachments/assets/c1d8110b-0007-48ab-bb69-4d1f369f2683" controls width="360"></video>
         <p align="center"><strong>Table cleaning</strong><br><a href="task_suites/table_cleaning.md">Guide</a></p>
       </td>
     </tr>
